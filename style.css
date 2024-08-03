@@ -1,0 +1,73 @@
+body {
+  background-color: white;
+}
+
+#container{
+  width: 1050px;
+  height: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#board {
+  width: 400px;
+  height: 800px;
+  margin-left: auto;
+  background-color: gray;
+  border-radius: 10px;
+  border-width: 10px;
+  border-color: black;
+  border-style: solid;
+  float: left;
+}
+#ui{
+    width: 300px;
+    height: 810px;
+    float: left;
+    background-color: gray;
+    border-radius: 0px;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+}
+
+#scoreBoard{
+  width: 300px;
+  height: 50%;
+  background-color: darkgray;
+}
+#gameInfo{
+  width: 300px;
+  height: 50%;
+  position: absolute;
+}
+#startScreen{
+  margin-top: 0;
+  width: 300px;
+  height: 50%;
+  background-color: gray;
+  position: relative;
+  opacity: 1;
+}
+#startButton{
+  margin-left: 75px;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  width: 150px;
+  height: 40px;
+}
+.startText{
+ padding: 40px;
+  margin: 0px;
+   font-size: 30px;
+   font-weight: bold;
+   text-align: center;
+}
+.title{
+  padding: 10px;
+  margin: 0px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
